@@ -1,0 +1,136 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* background-color: rgb(176, 198, 238); */
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    padding: 0;
+    background-color: #282847;
+    padding: 1%;
+}
+#navbar-title{
+    font-size: 30px;
+    color: white;
+}
+#nav-item{
+    font-size: 20px;
+    color: white;
+}
+#home{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#card-img{
+    height: 250px;
+}
+#card{
+    border: black;
+}
+#center{
+    padding-top: 10%;
+}
+#projects{
+    padding-bottom: 5%;
+}
+#project-title{
+    padding-bottom: 6%;
+    padding-top: 5%;
+    font-size: 60px;
+}
+#pricing-title{
+    padding-bottom: 6%;
+    padding-top: 5%;
+    font-size: 60px;
+}
+.card-title {
+    font: xx-large;
+}
+.circle {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(209, 59, 142);
+    border-radius: 100%;
+}
+#projects {
+    background-color: rgb(40, 40, 71);
+}
+.pro-heading {
+    color: white;
+}
+#team-title{
+    /* padding-top: 2%; */
+    padding-bottom:6%;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+#team-img{
+    height: 100px;
+    width: 40%;
+    border-radius: 80%;
+    transition: 1s;
+}
+
+#team-log{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.inner{
+    overflow: hidden;
+}
+#team-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#coding-team{
+    padding-bottom: 10%;
+    padding-top: 8%;
+}
+#blog{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#blog-title{
+    font-size: 60px;
+    padding-bottom: 3%;
+}
+.list {
+    align-items: center;
+    justify-content: left;
+    font-size: 30px;
+    margin-left: 0;
+    padding-left: 0;
+}
+li a{
+    text-decoration: none;
+}
+.contact-sec {
+    font-size: 30px;
+}
+#contact {
+    height: 50px;
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-left:20%;
+    padding-bottom: 5%;
+}
+#contact-title{
+    padding-bottom:5% ;
+    font-size: 30px;
+}
+.blog-head {
+    color: white;
+}
+#blog {
+    background-color: rgb(40, 40, 71);
+}
+.blog-text {
+    color: white;
+}
